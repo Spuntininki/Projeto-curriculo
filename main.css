@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.main-curriculum-contents {
+    min-height: 120vh;
+    width: 1024px;
+    margin: 2rem auto;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+.left-side-content {
+    background-color: #00204A;
+}
+
+/*Defines the font color of the left section */
+.left-side-content,
+.left-side-content a {
+    color: #ffffff;
+
+}
+
+/*Defines left-section elements margin and padding */
+.profile-information,
+.contact-info,
+.skills-info {
+    margin: 2rem;
+}
+
+.profile-information img {
+    border-radius: 100%;
+    width: 100%;
+}
+
+.right-side-content {
+    grid-column: span 5;
+    background-color: #4B6982;
+    border-radius: 0 40px 0 0;
+}
+
+/*Defines the font color of the left section */
+.right-side-content {
+    color: #ffffff;
+}
+
+
+/*Defines right-section super class margin and padding */
+.about-me-contents {
+    margin: 2rem;
+} 
+
+.experience-contents,
+.education-contents,
+.awards-contents {
+    margin: 4rem 2rem;
+}
+
+/*Defines right-section childs margin and padding */
+.exp-left,
+.education-left{
+    padding: 1rem 2rem 1rem 0.5rem;
+    display: inline-block;
+    max-width: 300px;
+    vertical-align: top;
+}
+
+
+.awards-left {
+    padding: 1rem 2rem 1rem 0.5rem;
+    display: inline-block;
+    width: 250px;
+    vertical-align: top;
+}
+
+.exp-right,
+.education-right {
+    padding: 1rem;
+    display: inline-block;
+    max-width: 300px;
+    vertical-align: top;
+}
+
+
+
+.awards-right {
+    padding: 1rem 2rem 1rem 0.5rem;
+    display: inline-block;
+    width: 300px;
+    vertical-align: top;
+}
